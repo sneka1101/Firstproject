@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo image">Shopping cart</a>
+            <i class='bx bxs-cart' id="cart"></i>
+            <div class="cart">
+                <h2 class="cart-title">Your cart</h2>
+                <div class="cart-content">
+                    <div class="cart-box">
+                        <img src="image/img2.jpg" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-product-title">Digital watch</div>
+                            <div class="cart-price">$56</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+                        <!--remove cart-->
+                        <i class='bx bxs-trash-alt cart-remove'></i>
+                    </div>
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">$65</div>
+                    </div>
+                    <!--button-->
+                    <button type="button" class="btn">Buy now</button>
+                    <!--cart close-->
+                    <i class='bx bx-x' id="close-cart"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="shop container">
+        <h2 class="section-tittle">Shopping product </h2>
+        <div class="shop-content">
+            <!--box1 -->
+            <div class="product-box">
+                <img src="image/img1.jpg" alt="" class="product-img">
+                <h2 class="product-tittle">water bottle</h2>
+                <span class="price">$65</span>
+                <i class='bx bxs-cart add-cart'></i>
+            </div>
+<!--box2-->
+            <div class="product-box">
+                <img src="image/img2.jpg" alt="" class="product-img">
+                <h2 class="product-tittle">Digital watch</h2>
+                <span class="price">$90</span>
+                <i class='bx bxs-cart add-cart'></i>
+
+            </div>
+             <!-- box3--> 
+            <div class="product-box">
+                <img src="image/img3.jpg" alt="" class="product-img">
+                <h2 class="product-tittle">smart watch</h2>
+                <span class="price">$100</span>
+                <i class='bx bxs-cart add-cart'></i>
+
+            </div>
+             <!-- box4--> 
+            <div class="product-box">
+                <img src="image/img4.jpg" alt="" class="product-img">
+                <h2 class="product-tittle">bag</h2>
+                <span class="price">$39</span>
+                <i class='bx bxs-cart add-cart'></i>
+            </div>
+             <!-- box5--> 
+            <div class="product-box">
+                <img src="image/img5.jpg"" class="product-img">
+                <h2 class="product-tittle">airpods</h2>
+                <span class="price">$90</span>
+                <i class='bx bxs-cart add-cart'></i>
+            </div>
+  <!--box6--> 
+            <div class="product-box">
+                <img src="image/img6.jpg" alt="" class="product-img">
+                <h2 class="product-tittle">wireless mouse</h2>
+                <span class="price">$195</span>
+                <i class='bx bxs-cart add-cart'></i>
+            </div>
+              <!--box7--> 
+
+            <div class="product-box">
+                <img src="image/img7.jpg" alt="" class="product-img">
+                <h2 class="product-tittle">shoe</h2>
+                <span class="price">$120</span>
+                <i class='bx bxs-cart add-cart'></i>
+            </div>
+              <!-- <>---box8--> 
+            <div class="product-box">
+                <img src="image/img8.jpg" alt="" class="product-img">
+                <h2 class="product-tiitle">keychain</h2>
+                <span class="price">$30</span>
+                <i class='bx bxs-cart add-cart'></i>
+            </div>
+        </div>
+    </section>
+    <script src="cart.js"></script>
+</body>
+</html>

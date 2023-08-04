@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma, sans-serif;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ .container{
+    max-width:  1068px;
+    margin: auto;
+    width: 100%;
+} 
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--bg-color);
+  box-shadow: 0 1px 4px hsl(0 4%  15% /10% ); 
+  z-index: 100;
+}
+
+section{
+    padding: 4rem 0 3rem;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    display: fixed;
+    
+}
+.logo image{
+  font-size: 1.1rem;
+  color: floralwhite;
+  font-weight: 500;
+}
+#cart{
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+.section-tittle{
+  margin-bottom: 1,5rem;
+}
+.cart{
+    position: fixed;
+    top:0;
+    right:-100%;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+     background: aliceblue;
+    box-shadow: -2px 0 6px hsl(hue, saturation, lightness);
+    transition: 0.3s;
+    
+}
+.cart.active{
+  right: 0;
+}
+
+.cart-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.cart-img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+}
+.detail-box{
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+.card-product-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.cart-price{
+  font-weight: 500;
+}
+
+
+.cart-quantity{
+  border: cornflowerblue;
+  outline-color: darksalmon;
+  width: 2.4rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.cart-remove{
+  font-size: 24px;
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+border-top: 1px solid var(--text-color);}
+
+.total-title{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.total-price{
+  margin-left: 0.8rem;}
+.btn{
+  display: flex;
+  margin: 1.5rem auto 0 auto;
+  padding: 12px 20px;
+  border: none;
+  background: coral;
+  color: gainsboro;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+#close-cart{
+  position: absolute;
+  top: 1rem;
+  right: 0.8rem;
+  font-size: 2rem;
+  color: var(--text-color);
+  cursor: pointer;
+
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.shop{
+    margin: 1.5rem;
+} 
+
+
+/* CSS for the shop-content container */
+ .shop-content {
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    
+    gap: 10px;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  } 
+
+  
+
+
+  
+  
+  /* CSS for the product boxes */
+  .product-box {
+
+    border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  position: relative; }
+  
+  /* CSS for the product images */
+  .pro-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* CSS for the product title */
+  .product-title {
+    font-size: 1.1rem;
+    margin: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+   
+  }
+  
+  /* CSS for the price */
+  .price {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* CSS for the add to cart icon */
+  .add-cart {
+  font-size: 24px;
+  color: #007bff;
+  cursor: pointer;
+  position: absolute;
+  background-color: rgb(233, 215, 122);
+  right: 10px;
+
+  }
+  
+  .add-cart:hover{
+    background: hsl(249, 32%, 17%);
+}
+  .product-box:hover{
+    padding: 10px;
+    border:solid grey;
+    transition: 0.4s;
+}
