@@ -1,0 +1,109 @@
+/* nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+  color: white;
+  padding: 5px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+
+  list-style: none;
+  font-weight: bold;
+}
+
+li {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  margin: 30px;
+  border-radius: 30px;
+}
+
+.content-header {
+ color: white;
+  text-transform: capitalize;
+}  */
+
+
+/* Styling for the navigation bar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333; 
+  color: #fff; 
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-weight: bold;
+}
+
+li {
+  margin: 0 15px; 
+  cursor: pointer;
+  transition: transform 0.2s; 
+}
+
+li:hover {
+  transform: scale(1.1); 
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase; 
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #ffd700; 
+}
+
+/* Styling for the content section */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; 
+  background-color: #f5f5f5; 
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-transform: capitalize;
+}
+
+.content-header {
+  color: #333; 
+  font-size: 24px; 
+ 
+}
+
+main {
+  padding-top: 100px; 
+}
