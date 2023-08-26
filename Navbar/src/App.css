@@ -1,0 +1,26 @@
+
+
+.container {
+  text-align: center;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+p{
+  text-align: justify;
+}
+.image1{
+  
+    height:360px;
+    width: 500px;
+}
+
+
+.h2{
+  text-align: left;
+}
